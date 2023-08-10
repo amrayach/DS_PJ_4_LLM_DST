@@ -129,11 +129,16 @@ cp ../customized/lit-parrot/finetune/adapter.py ./finetune/
 cp ../customized/lit-parrot/generate/adapter_test.py ./generate/
 cp ../customized/lit-parrot/install_requirements.sh ./
 ./install_requirements.sh
+```
 
 
+Download and prepare Falcon weights for Lit-Parrot
+```bash 
 python scripts/download.py --repo_id tiiuae/falcon-7b-instruct
 python scripts/convert_hf_checkpoint.py --checkpoint_dir checkpoints/tiiuae/falcon-7b-instruct
 ```
+
+
 #### Preprocess the dataset for Lit-Parrot
 ```bash 
 python scripts/prepare_dst.py --destination_path data/dst/train   --checkpoint_dir checkpoints/tiiuae/falcon-7b-instruct
