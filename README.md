@@ -49,6 +49,7 @@ git checkout 26f33a3b95
 
 ```bash 
 cp ../customized/lit-llama/scripts/prepare_dst.py ./scripts/
+cp ../customized/lit-llama/scripts/preprocess_outputs.py ./scripts/
 cp ../customized/lit-llama/finetune/adapter_ckpt.py ./finetune/
 cp ../customized/lit-llama/generate/adapter.py ./generate/
 cp ../customized/lit-llama/install_requirements.sh ./
@@ -113,6 +114,7 @@ python scripts/preprocess_outputs.py
 #### Setting up Lit-Parrot 
 Note: Lit-Parrot has been renamed to lit-gpt
 ```bash 
+# Please make sure you are in the main folder (DS_PJ_4_LLM_DST/.)
 git clone https://github.com/Lightning-AI/lit-gpt.git
 cd lit-gpt
 git checkout 93b3f6f527
@@ -122,6 +124,7 @@ git checkout 93b3f6f527
 #### Copy customized implementations
 ```bash 
 cp ../customized/lit-parrot/scripts/prepare_dst.py ./scripts/
+cp ../customized/lit-parrot/scripts/preprocess_outputs.py ./scripts/
 cp ../customized/lit-parrot/finetune/adapter_ckpt.py ./finetune/
 cp ../customized/lit-parrot/generate/adapter.py ./generate/
 cp ../customized/lit-parrot/install_requirements.sh ./
