@@ -18,7 +18,9 @@ Expected output: all the necessary data structured and contained in:
   ./data/extracted/test_examples.pkl
 
 # pre-process dataset
+```bash 
 python dst_preprocessing.py
+```
 
 Expected output: preprocessed data in the prompt format:
 
