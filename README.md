@@ -50,8 +50,8 @@ git checkout 26f33a3b95
 ```bash 
 cp ../customized/lit-llama/scripts/prepare_dst.py ./scripts/
 cp ../customized/lit-llama/scripts/preprocess_outputs.py ./scripts/
-cp ../customized/lit-llama/finetune/adapter_ckpt.py ./finetune/
-cp ../customized/lit-llama/generate/adapter.py ./generate/
+cp ../customized/lit-llama/finetune/adapter.py ./finetune/
+cp ../customized/lit-llama/generate/adapter_test.py ./generate/
 cp ../customized/lit-llama/install_requirements.sh ./
 ./install_requirements.sh
 ```
@@ -125,8 +125,8 @@ git checkout 93b3f6f527
 ```bash 
 cp ../customized/lit-parrot/scripts/prepare_dst.py ./scripts/
 cp ../customized/lit-parrot/scripts/preprocess_outputs.py ./scripts/
-cp ../customized/lit-parrot/finetune/adapter_ckpt.py ./finetune/
-cp ../customized/lit-parrot/generate/adapter.py ./generate/
+cp ../customized/lit-parrot/finetune/adapter.py ./finetune/
+cp ../customized/lit-parrot/generate/adapter_test.py ./generate/
 cp ../customized/lit-parrot/install_requirements.sh ./
 ./install_requirements.sh
 
