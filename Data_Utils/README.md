@@ -36,7 +36,10 @@ this directory contains adjusted code for the data generation process. Especiall
 
 ---
 
-### 2. Preprocess the generated data: (Iyadh)
+### 2. Preprocess the generated data:
+Once the data is generated from the previous step as a json file, use the following script to get the data into the (prompt, input, output) format.
+Use the [preprocess_outputs.py](..%2Fcustomized%2Flit-llama%2Fscripts%2Fpreprocess_outputs.py) 
+
 
 ---
 
