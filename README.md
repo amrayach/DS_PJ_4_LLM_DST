@@ -165,9 +165,8 @@ python generate/adapter_test.py
 python scripts/preprocess_outputs.py
 ```
 
-#### Textual results to structured results 
-
 #### Evaluation
+At this point please follow the steps ( [3](https://github.com/amrayach/DS_PJ_4_LLM_DST/tree/main/Data_Utils#3-postprocess-the-generated-data), [4](https://github.com/amrayach/DS_PJ_4_LLM_DST/tree/main/Data_Utils#4-evaluation-of-the-fine-tuned-models) ) under [Data_Utils](Data_Utils)
 
 ---
 For any inquiries or questions, please do not hesitate to contact the authors or create an issue.
