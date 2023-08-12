@@ -8,14 +8,18 @@ git clone git@github.com:amrayach/DS_PJ_4_LLM_DST.git
 cd DS_PJ_4_LLM_DST
 ```
 
-<!-- Ammer please add the modified script file to extract the datasets -->
-# Extract the dataset 
+---
+
+# Data Utils
+Please apply step number 1 ([Generate Data for LLM](https://github.com/amrayach/DS_PJ_4_LLM_DST/tree/main/Data_Utils#1-generate-data-for-llms-llama--falcon)) under [Data_Utils](Data_Utils).
+
 
 Expected output: all the necessary data structured and contained in: 
 
+```bash 
   ./data/extracted/train_examples.pkl
-  
   ./data/extracted/test_examples.pkl
+```
 
 # pre-process dataset
 ```bash 
